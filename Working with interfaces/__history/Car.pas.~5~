@@ -1,0 +1,17 @@
+unit Car;
+
+interface
+uses Recyclable;
+type
+TCar = class (TInterfacedObject, IRecycable)
+  private
+    CarName : string;
+    CarAge : byte;
+    CarIsRecycable : boolean;
+    function GetIsRecycable : boolean;
+
+end;
+
+implementation
+
+end.

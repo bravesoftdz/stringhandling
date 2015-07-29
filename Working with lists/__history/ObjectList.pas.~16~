@@ -1,0 +1,11 @@
+unit ObjectList;
+
+
+interface
+
+TCustClass = class
+
+end;
+implementation
+
+end.

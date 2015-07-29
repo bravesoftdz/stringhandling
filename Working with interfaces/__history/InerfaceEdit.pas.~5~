@@ -1,0 +1,14 @@
+unit InerfaceEdit;
+
+interface
+type
+IPaint = Interface
+  procedure Paint;
+End;
+
+TSquare = class(TPolygonObject, IPaint)
+
+end;
+implementation
+
+end.

@@ -1,0 +1,82 @@
+object frmBall: TfrmBall
+  Left = 0
+  Top = 0
+  Caption = 'frmBall'
+  ClientHeight = 336
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 19
+    Width = 19
+    Height = 13
+    Caption = 'Size'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 46
+    Width = 51
+    Height = 13
+    Caption = 'Kick power'
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 85
+    Width = 26
+    Height = 13
+    Caption = 'Panel'
+  end
+  object lbDescription: TLabel
+    Left = 8
+    Top = 120
+    Width = 3
+    Height = 13
+  end
+  object edSize: TEdit
+    Left = 64
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edKick: TEdit
+    Left = 64
+    Top = 43
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edPanel: TEdit
+    Left = 64
+    Top = 77
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object btnBall: TButton
+    Left = 8
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Ball'
+    TabOrder = 3
+    OnClick = btnBallClick
+  end
+  object Button2: TButton
+    Left = 89
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Fotball'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+end

@@ -1,0 +1,12 @@
+unit ObjectList;
+
+
+interface
+
+TCustomObjectList = class
+
+end;
+
+implementation
+
+end.

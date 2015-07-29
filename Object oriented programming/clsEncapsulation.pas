@@ -1,0 +1,20 @@
+unit clsEncapsulation;
+
+interface
+
+{
+TEncapsulation = class
+  private
+    FPrivateField : Integer;
+  protected
+    // procedure ProtectedMethod;
+  public
+    Constructor Create;
+    Destructor Destroy;
+    Procedure Method;
+  published
+    procedure PublishedMethod;
+end;
+}
+implementation
+end.

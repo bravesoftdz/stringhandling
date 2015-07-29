@@ -1,0 +1,12 @@
+unit InerfaceEdit;
+
+interface
+type
+IEdit = Interface
+  procedure Copy;
+  procedure Cut;
+  procedure Paste;
+End;
+implementation
+
+end.

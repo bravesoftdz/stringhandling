@@ -1,0 +1,11 @@
+unit Recyclable;
+
+interface
+type
+IRecycable = interface(IInterface)
+
+end;
+
+implementation
+
+end.

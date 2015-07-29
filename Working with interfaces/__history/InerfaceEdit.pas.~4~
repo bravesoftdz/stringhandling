@@ -1,0 +1,10 @@
+unit InerfaceEdit;
+
+interface
+type
+IPaint = Interface
+  procedure Paint;
+End;
+implementation
+
+end.

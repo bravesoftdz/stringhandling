@@ -1,0 +1,37 @@
+unit AbstractBasePolygon;
+
+interface
+type
+TPolygon = class
+private
+  sideLength : byte;
+  sideCount : byte;
+  function GetSideLength : byte;
+  procedure SetSideLength(Length: byte);
+
+  function GetSideCount : byte; virtual; abstract;
+  procedure SetSideCount (Count : byte); virtual; abstract;
+  function GetAreaA : single; virtual; abstract;
+published
+  property Length : byte read GetSideCount write SetSideCount;
+  property Count : byte read GetSideCount write SetSideCount;
+  Constructor Create(Length : byte);
+end;
+implementation
+
+Constructor TPolygon.Create(Length: Byte);
+begin
+  sideLength := Length;
+end;
+
+function TPolygon.GetSideLength;
+begin
+  Result := sideLength;
+end;
+
+Procedure TPolygon.SetSideLength(Length: Byte);
+begin
+  sideLength := Length;
+end;
+
+end.

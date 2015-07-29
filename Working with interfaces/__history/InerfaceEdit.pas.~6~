@@ -1,0 +1,14 @@
+unit InerfaceEdit;
+
+interface
+type
+IPaint = Interface
+  procedure Paint;
+End;
+
+TSquare = class(TCustomShape, IPaint)
+
+end;
+implementation
+
+end.

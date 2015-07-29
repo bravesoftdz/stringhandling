@@ -1,0 +1,21 @@
+unit InerfaceEdit;
+
+interface
+type
+IPaint = Interface
+  procedure Paint;
+End;
+
+TSquare = class(TInterfaceObject, IPaint)
+private
+  IDraw : integer;
+public
+  procedure Paint;
+
+end;
+implementation
+procedure TSquare.Paint;
+begin
+
+end;
+end.

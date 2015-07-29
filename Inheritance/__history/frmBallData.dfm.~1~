@@ -1,0 +1,80 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 336
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 19
+    Width = 19
+    Height = 13
+    Caption = 'Size'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 46
+    Width = 18
+    Height = 13
+    Caption = 'Kick'
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 85
+    Width = 26
+    Height = 13
+    Caption = 'Panel'
+  end
+  object lbDescription: TLabel
+    Left = 8
+    Top = 120
+    Width = 3
+    Height = 13
+  end
+  object edSize: TEdit
+    Left = 64
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edKick: TEdit
+    Left = 64
+    Top = 43
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edPanel: TEdit
+    Left = 64
+    Top = 77
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 89
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 4
+  end
+end

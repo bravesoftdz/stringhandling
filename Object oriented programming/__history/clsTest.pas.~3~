@@ -1,0 +1,17 @@
+unit clsTest;
+
+interface
+
+type
+
+TTest = Class
+public
+  constructor create;
+  destructor destroy;
+  procedure method;
+End;
+
+implementation
+
+
+end.

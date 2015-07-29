@@ -1,0 +1,13 @@
+unit Car;
+
+interface
+uses Recyclable;
+type
+TCar = class (TInterfacedObject, IRecycable)
+
+
+end;
+
+implementation
+
+end.
