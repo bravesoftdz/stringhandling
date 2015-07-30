@@ -163,5 +163,8 @@ function TAirplan.GetName : string;
 begin
   Result := Name;
 end;
+
+
+
 End. // end of interface
 
