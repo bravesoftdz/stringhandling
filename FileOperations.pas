@@ -39,6 +39,8 @@ begin
   Result := DeleteFile(FileName);
 end; // End
 
+
+
 function TFileOperation.FindFileFromDirectory(Directory : string; SearchFile : string) : TFilesRecord;
 var
   FileRec : array of TFilesRecord;
