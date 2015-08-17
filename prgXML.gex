@@ -1,0 +1,26 @@
+[General]
+Name=prgXML
+Project=1
+[Classes]
+Count=21
+Class0="TForm1","TForm","frmReadXml","0","C:\Users\Isra.ahm\Documents\stringhandling\frmReadXml.pas"
+Class1="Txml","","XmlParser","5","C:\Users\Isra.ahm\Documents\stringhandling\XmlParser.pas"
+Class2="TAirplan","","AirplanU","0","C:\Users\Isra.ahm\Documents\stringhandling\AirplanU.pas"
+Class3="TXmlDOMDocument","","XmlDOMDocument","0","C:\Users\Isra.ahm\Documents\stringhandling\XmlDOMDocument.pas"
+Class4="TFile","","txtFile","13","C:\Users\Isra.ahm\Documents\stringhandling\txtFile.pas"
+Class5="TFileOperation","","FileOperations","13","C:\Users\Isra.ahm\Documents\stringhandling\FileOperations.pas"
+Class6="TCustomer","","lstTList","4","C:\Users\Isra.ahm\Documents\stringhandling\lstTList.pas"
+Class7="TfrmLists","TForm","frmListCollection","0","C:\Users\Isra.ahm\Documents\stringhandling\frmListCollection.pas"
+Class8="TCustomList","TList","List","10","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\List.pas"
+Class9="TCustomStringList","TStringList","StringList","0","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\StringList.pas"
+Class10="TCar","TInterfacedObject, IRecycable","Car","0","C:\Users\Isra.ahm\Documents\stringhandling\Working with interfaces\Car.pas"
+Class11="TBall","","Ball","4","C:\Users\Isra.ahm\Documents\stringhandling\Inheritance\Ball.pas"
+Class12="TFootball","TBall","FootBall","0","C:\Users\Isra.ahm\Documents\stringhandling\Inheritance\FootBall.pas"
+Class13="TfrmBall","TForm","frmBallData","0","C:\Users\Isra.ahm\Documents\stringhandling\Inheritance\frmBallData.pas"
+Class14="TPolygon","","AbstractBasePolygon","0","C:\Users\Isra.ahm\Documents\stringhandling\Abstraction\AbstractBasePolygon.pas"
+Class15="TTriangle","TPolygon","TriangleChild","0","C:\Users\Isra.ahm\Documents\stringhandling\Abstraction\TriangleChild.pas"
+Class16="TTest","","clsTest","0","C:\Users\Isra.ahm\Documents\stringhandling\Object oriented programming\clsTest.pas"
+Class17="TCar","","clsTObjectList","9","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\clsTObjectList.pas"
+Class18="TPorche","TCar","clsTObjectList","0","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\clsTObjectList.pas"
+Class19="TCarList1","TObjectList","clsTObjectList","20","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\clsTObjectList.pas"
+Class20="TCarList2","","clsTObjectList","31","C:\Users\Isra.ahm\Documents\stringhandling\Working with lists\clsTObjectList.pas"

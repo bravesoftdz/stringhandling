@@ -12,13 +12,16 @@ type
     edKick: TEdit;
     Label1: TLabel;
     Label2: TLabel;
-    edPanel: TEdit;
+    edPanel: TEdit;     
     Label5: TLabel;
     btnBall: TButton;
     Button2: TButton;
     lbDescription: TLabel;
     procedure btnBallClick(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+
+
+
   private
     { Private declarations }
   public
@@ -36,7 +39,7 @@ implementation
 procedure TfrmBall.btnBallClick(Sender: TObject);
 var
  ball : TBall;
-begin 
+begin
  try
  ball := TBall.Create(StrToInt(edSize.Text) );
  ball.Kick(StrToInt(edKick.Text));
@@ -51,7 +54,7 @@ end;
 { Football method }
 procedure TfrmBall.Button2Click(Sender: TObject);
 var
- Football : TFootball;
+ Football : TFootball;                 
 begin
   try
     football := TFootball.Create(strtoint(edSize.Text), strtoint(edPanel.Text));
@@ -64,4 +67,5 @@ begin
   end;
 end; 
 
+{ end of unit }
 end.

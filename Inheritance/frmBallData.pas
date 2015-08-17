@@ -22,6 +22,7 @@ type
 
 
 
+
   private
     { Private declarations }
   public
