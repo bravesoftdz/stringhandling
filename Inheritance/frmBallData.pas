@@ -19,6 +19,9 @@ type
     lbDescription: TLabel;
     procedure btnBallClick(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+
+
+
   private
     { Private declarations }
   public
